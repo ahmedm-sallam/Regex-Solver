@@ -1,0 +1,7 @@
+Problem 1 - Email Validation
+Invalid email
+Valid email
+Invalid email
+Invalid email
+End of problem 1
+--------------------
