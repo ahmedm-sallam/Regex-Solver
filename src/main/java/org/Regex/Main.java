@@ -4,7 +4,6 @@ import java.util.*;
 import java.io.*;
 
 public class Main {
-
     public static void main(String[] args) {
         try {
             File infile = new File("input.txt");
@@ -12,11 +11,11 @@ public class Main {
             Scanner input = new Scanner(infile);
             while (input.hasNextLine()) {
                 String data = input.nextLine();
-                switch (data) {
-                    case "1":
-                        EmailValidator.validate(infile, output);
-                        break;
-                    case "2":
+                System.out.println(data);
+                if (data.equals("1")) {
+                    EmailValidator.validate(infile, output);
+                } else if (data.equals("2")) {
+                    PhoneNumberValidator.validate(infile, output);
                 }
             }
             output.close();
