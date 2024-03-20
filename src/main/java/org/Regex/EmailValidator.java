@@ -10,6 +10,7 @@ public class EmailValidator {
         output.println("Problem 1 - Email Validation : ");
         while (true) {
             String str = input.nextLine();
+            if (str.equals("1")) continue;
             if (str.equals("end")) break;
             String RegEx = "[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}";
             Pattern pattern = Pattern.compile(RegEx);
@@ -21,7 +22,5 @@ public class EmailValidator {
             }
         }
         output.println("End of problem 1");
-        output.println("--------------------");
-        output.close();
-    }
+        output.println("--------------------");}
 }
