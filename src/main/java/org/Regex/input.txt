@@ -10,6 +10,10 @@ end
 1230456 7890
 123/456/7890
 end
+8
+The cat is cute
+an apple
+end
 3
 11/3/2024
 1st-03-2024
@@ -35,10 +39,6 @@ end
 7
 aabb
 aabaaaaabaa
-end
-8
-The cat is cute
-an apple
 end
 9
 C:\problem9file.txt

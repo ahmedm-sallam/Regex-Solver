@@ -4,7 +4,7 @@ Invalid email
 Invalid email
 End of problem 1
 --------------------
-Problem 1 - Phone Number Validation : 
+Problem 2 - Phone Number Validation : 
 Valid Phone Number
 Invalid Phone Number
 Invalid Phone Number

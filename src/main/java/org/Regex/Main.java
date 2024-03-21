@@ -17,6 +17,10 @@ public class Main {
                 } else if (data.equals("2")) {
                     PhoneNumberValidator.validate(infile, output);
                 }
+//                else if(data.equals("8"))
+//                {
+//                    WordsMultiple3.validate(infile,output);
+//                }
             }
             output.close();
         } catch (Exception e) {
