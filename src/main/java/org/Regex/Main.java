@@ -11,16 +11,17 @@ public class Main {
             Scanner input = new Scanner(infile);
             while (input.hasNextLine()) {
                 String data = input.nextLine();
-                System.out.println(data);
                 if (data.equals("1")) {
-                    EmailValidator.validate(infile, output);
+                    EmailValidator.validate(input, output);
                 } else if (data.equals("2")) {
-                    PhoneNumberValidator.validate(infile, output);
+                    PhoneNumberValidator.validate(input, output);
                 }
-//                else if(data.equals("8"))
-//                {
-//                    WordsMultiple3.validate(infile,output);
-//                }
+                else if(data.equals("8"))
+                {
+                    WordsMultiple3.validate(input,output);
+                }else if(data.equals("10")){
+                    MathematicalExpressions.validate(input,output);
+                }
             }
             output.close();
         } catch (Exception e) {

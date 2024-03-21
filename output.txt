@@ -6,8 +6,24 @@ End of problem 1
 --------------------
 Problem 2 - Phone Number Validation : 
 Valid Phone Number
-Invalid Phone Number
-Invalid Phone Number
+Valid Phone Number
+Valid Phone Number
+Valid Phone Number
 Valid Phone Number
 End of problem 2
+--------------------
+Problem 8 - words whose length ia a multiple of 3: 
+number of matched words: 2
+matched word : The
+start index : 0, end index: 3
+matched word : cat
+start index : 4, end index: 7
+No word matches
+End of problem 8
+--------------------
+Problem 10 - Mathematical Expressions Validation:
+Invalid Mathematical Expression
+Invalid Mathematical Expression
+Invalid Mathematical Expression
+End of problem 10
 --------------------

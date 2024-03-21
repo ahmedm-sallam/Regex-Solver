@@ -10,10 +10,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class WordsMultiple3 {
-    public static void validate(File infile, PrintWriter output) throws FileNotFoundException {
-        Scanner input = new Scanner(infile);
+    public static void validate(Scanner input, PrintWriter output) throws FileNotFoundException {
         output.println("Problem 8 - words whose length ia a multiple of 3: ");
-        while (true) {
+        while (input.hasNextLine()) {
             String str = input.nextLine();
             if (str.equals("8")) continue;
             if (str.equals("end")) break;

@@ -8,10 +8,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PhoneNumberValidator {
-    public static void validate(File infile, PrintWriter output) throws FileNotFoundException {
-        Scanner input = new Scanner(infile);
+    public static void validate(Scanner input, PrintWriter output) throws FileNotFoundException {
         output.println("Problem 2 - Phone Number Validation : ");
-        while (true) {
+        while (input.hasNextLine()) {
             String str = input.nextLine();
             if (str.equals("2")) continue;
             if (str.equals("end")) break;

@@ -5,10 +5,9 @@ import java.util.regex.*;
 import java.io.*;
 
 public class EmailValidator {
-    public static void validate(File infile, PrintWriter output) throws FileNotFoundException {
-        Scanner input = new Scanner(infile);
+    public static void validate(Scanner input, PrintWriter output) throws FileNotFoundException {
         output.println("Problem 1 - Email Validation : ");
-        while (true) {
+        while (input.hasNextLine()) {
             String str = input.nextLine();
             if (str.equals("1")) continue;
             if (str.equals("end")) break;
