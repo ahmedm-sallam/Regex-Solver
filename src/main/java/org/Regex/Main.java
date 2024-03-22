@@ -16,6 +16,11 @@ public class Main {
                 } else if (data.equals("2")) {
                     PhoneNumberValidator.validate(input, output);
                 }
+                else if (data.equals("3")) {
+                    DateValidator.validate(input,output);
+                }else if (data.equals("5")) {
+                    CPPValidator.validate(input,output);
+                }
                 else if(data.equals("8"))
                 {
                     WordsMultiple3.validate(input,output);
