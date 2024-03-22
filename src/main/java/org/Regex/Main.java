@@ -15,20 +15,16 @@ public class Main {
                     EmailValidator.validate(input, output);
                 } else if (data.equals("2")) {
                     PhoneNumberValidator.validate(input, output);
-                }
-                else if (data.equals("3")) {
-                    DateValidator.validate(input,output);
-                }else if (data.equals("4")) {
-                    IPValidator.validate(input,output);
-                }
-                else if (data.equals("5")) {
-                    CPPValidator.validate(input,output);
-                }
-                else if(data.equals("8"))
-                {
-                    WordsMultiple3.validate(input,output);
-                }else if(data.equals("10")){
-                    MathematicalExpressions.validate(input,output);
+                } else if (data.equals("3")) {
+                    DateValidator.validate(input, output);
+                } else if (data.equals("4")) {
+                    IPValidator.validate(input, output);
+                } else if (data.equals("5")) {
+                    CPPValidator.validate(input, output);
+                } else if (data.equals("8")) {
+                    WordsMultiple3.validate(input, output);
+                } else if (data.equals("10")) {
+                    MathematicalExpressions.validate(input, output);
                 }
             }
             output.close();

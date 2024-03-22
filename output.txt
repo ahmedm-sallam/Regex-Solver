@@ -8,8 +8,8 @@ Problem 2 - Phone Number Validation :
 Valid Phone Number
 Valid Phone Number
 Valid Phone Number
-Valid Phone Number
-Valid Phone Number
+Invalid Phone Number
+Invalid Phone Number
 End of problem 2
 --------------------
 Problem 3 - Date Validation : 
@@ -18,7 +18,7 @@ Invalid Date
 Invalid Date
 End of problem 3 
 --------------------
-Problem 4 - IP Addresses  Validation : 
+Problem 4 - IP Addresses Validation : 
 Valid IP Address
 Invalid IP Address
 End of problem 4
