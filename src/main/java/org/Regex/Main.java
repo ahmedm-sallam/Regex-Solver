@@ -18,7 +18,10 @@ public class Main {
                 }
                 else if (data.equals("3")) {
                     DateValidator.validate(input,output);
-                }else if (data.equals("5")) {
+                }else if (data.equals("4")) {
+                    IPValidator.validate(input,output);
+                }
+                else if (data.equals("5")) {
                     CPPValidator.validate(input,output);
                 }
                 else if(data.equals("8"))
