@@ -32,6 +32,28 @@ Invalid CPP variable
 Invalid CPP variable
 End of problem 5
 --------------------
+Problem 6 - Alphabet Addresses Validation : 
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+Valid String
+End of problem 6
+--------------------
+Problem 7 - Odd Number of a's and b's Extraction : 
+*aabb*
+Matched substring 1: ab
+Start index: 1
+End index: 3
+Total matched substrings found: 1
+*aabaaaaabaa*
+Matched substring 1: aabaaaaa
+Start index: 0
+End index: 8
+Matched substring 2: ba
+Start index: 8
+End index: 10
+Total matched substrings found: 2
+End of problem 7
+--------------------
 Problem 8 - words whose length ia a multiple of 3: 
 number of matched words: 2
 matched word : The
@@ -59,8 +81,8 @@ start index: 43, end index: 84
 End of problem 9
 --------------------
 Problem 10 - Mathematical Expressions Validation:
-Invalid Mathematical Expression
-Invalid Mathematical Expression
+Valid Mathematical Expression
+Valid Mathematical Expression
 Invalid Mathematical Expression
 End of problem 10
 --------------------
