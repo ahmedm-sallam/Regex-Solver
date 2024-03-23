@@ -41,6 +41,23 @@ start index : 4, end index: 7
 No word matches
 End of problem 8
 --------------------
+Problem 9 -  extract URLs from a text file: 
+Input file name: problem9file.txt
+Number of URLs: 4
+URL: https://www.example.com/
+Line: 1
+start index: 36, end index: 60
+URL: https://blog.example.com
+Line: 2
+start index: 55, end index: 79
+URL: https://twitter.com/example
+Line: 3
+start index: 35, end index: 62
+URL: https://www.example.com/example1/example2
+Line: 4
+start index: 43, end index: 84
+End of problem 9
+--------------------
 Problem 10 - Mathematical Expressions Validation:
 Invalid Mathematical Expression
 Invalid Mathematical Expression

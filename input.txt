@@ -41,7 +41,7 @@ The cat is cute
 an apple
 end
 9
-C:\problem9file.txt
+problem9file.txt
 end
 10
 3x-3y=90

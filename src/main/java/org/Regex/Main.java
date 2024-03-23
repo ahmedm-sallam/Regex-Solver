@@ -23,6 +23,8 @@ public class Main {
                     CPPValidator.validate(input, output);
                 } else if (data.equals("8")) {
                     WordsMultiple3.validate(input, output);
+                } else if (data.equals("9")) {
+                    ExtractURLs.validate(input, output);
                 } else if (data.equals("10")) {
                     MathematicalExpressions.validate(input, output);
                 }
