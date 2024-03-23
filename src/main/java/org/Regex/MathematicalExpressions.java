@@ -7,7 +7,7 @@ import java.util.*;
 public class MathematicalExpressions {
     public static void validate(Scanner input, PrintWriter output) {
         output.println("Problem 10 - Mathematical Expressions Validation:");
-        String regex = "";
+        String regex="^(((-?\\d+(\\.\\d+)?)(\\w))|((-?\\d+(\\.\\d+)?)|(\\w)))([+\\-*\\/](((-?\\d+(\\.\\d+)?)(\\w))|((-?\\d+(\\.\\d+)?)|(\\w))))*=(((-?\\d+(\\.\\d+)?)(\\w))|((-?\\d+(\\.\\d+)?)|(\\w)))([+\\-*\\/](((-?\\d+(\\.\\d+)?)(\\w))|((-?\\d+(\\.\\d+)?)|(\\w))))*$";
         while (input.hasNextLine()) {
             String str = input.nextLine();
             if (str.equals("end")) {
